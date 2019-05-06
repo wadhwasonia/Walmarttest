@@ -53,7 +53,7 @@ public class walmart_test {
         By inputaddress = By.xpath("//input[@id='address']");
         By submitaddress =By.xpath("//button[@id='submit-address']");
         By pickuppostaltext=By.xpath("//p[@id='pickup-postal']");
-        //By sellocationtext=By.xpath("//div[@tabindex='0']//div[3]//div[1]//div[1]//div[1]");
+        
         By sellocationtext=By.cssSelector(".marker1061 > div:nth-child(3) > button:nth-child(1)");
         By firstname=By.xpath("//input[@id='pickup-by-first-name']");
         By lastname=By.xpath("//input[@id='pickup-by-last-name']");
