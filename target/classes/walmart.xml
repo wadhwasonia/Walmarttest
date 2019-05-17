@@ -1,17 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Testing Suite" verbose="0" parallel="none"  thread-count="1">
-       <test name="test1" enabled="true">
-           <parameter name="textsearch" value="apple"></parameter>
-           <parameter name="addsearch" value="L5V2R7"></parameter>
-           <parameter name="fname" value="testwalmart"></parameter>
-           <parameter name="lname" value="walmart"></parameter>
-           <parameter name="phone" value="3334445555"></parameter>
+<suite name="Testing Suite"  parallel="none" thread-count="1" >
 
 
-           <classes>
-               <class
-                       name= "walmart_java.walmart_test"/>
+    <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="test1"  >
+        <classes>
+            <class
+                    name= "walmart_java.walmart_test"/>
 
-           </classes>
-       </test>
+        </classes>
+
+    </test>
+
+
 </suite>

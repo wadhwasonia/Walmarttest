@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test1"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="81.568">
+  <properties />
+  
+  
+            <testcase name="babyMainPage_test2" time="37.851" classname="walmart_java.walmart_test" />
+                <testcase name="shopgroceries_test3" time="26.694" classname="walmart_java.walmart_test" />
+                <testcase name="search_test1" time="17.023" classname="walmart_java.walmart_test" />
+      
+</testsuite>
